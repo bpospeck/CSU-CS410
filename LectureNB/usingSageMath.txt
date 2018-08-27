@@ -1,0 +1,9 @@
+Using sageMath on department machines:
+
+export PATH=/usr/local/sage:$PATH
+I have the above command in my .bashrc file, so it shouldn't 
+need to be ran ever manually, but it's here just in case.
+
+sage -n jupyter
+
+If nothing opens go to-> http://localhost:8888/tree <- in a browser

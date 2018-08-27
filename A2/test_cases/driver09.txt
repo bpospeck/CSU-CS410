@@ -1,0 +1,8 @@
+eye 0 75 200
+look 0 0 0
+up 0 1 0
+d 50
+bounds -3 -3 3 3
+res 512 512
+model 0.0 1.0 0.0 -45 2 5.0 0.0 -5.0 cube_centered.obj
+model 0.0 1.0 0.0 45 2 -5.0 0.0 5.0 cube_centered.obj

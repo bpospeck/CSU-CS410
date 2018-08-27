@@ -1,0 +1,12 @@
+driver00.txt	tMin = 5.000, tMax = 5.047
+driver01.txt	tMin = 1.591, tMax = 4.374
+driver02.txt	tMin = 68.612, tMax = 87.851
+driver03.txt	tMin = 3.03559, tMax = 12.3201
+driver04.txt	tMin = 6348.193, tMax = 7117.788
+driver05.txt	tMin = 65.632, tMax = 70.113
+driver06.txt	tMin = 489.365, tMax = 492.221
+driver07.txt	tMin = 6345.918, tMax = 7125.090
+driver08.txt	tMin = 4426.593, tMax = 5297.767
+driver09.txt	tMin = 152.285, tMax = 172.163
+
+

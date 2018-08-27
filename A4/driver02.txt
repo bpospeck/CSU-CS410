@@ -1,0 +1,17 @@
+eye 50 197 0
+look 0 0 0
+up 0 1 0
+d 200
+bounds -2 -2 2 2
+res 4096 4096
+recursionLevel 5
+ambient 0.1 0.1 0.1
+light 200 100 -200 1 0.5 0.5 0.5
+light -200 100 200 1 0.5 0.5 0.5
+light 0 100 0 1 0.3 0.3 0.3
+model 1.0 0.0 0.0 90 1 0 0 0 checkerGreen.obj
+model 1.0 0.0 0.0 30 1 0 1 1.5 checkerBlue.obj
+model 1.0 0.0 0.0 -30 1 0 1 -1.5 checkerRed.obj
+sphere -0.5 0.5 0 0.3 0.1 0.1 0.1 0.9 0.9 0.0 0.7 0.7 0.7 1 1 1
+sphere 0.5 0.5 0 0.3 0.1 0.1 0.1 0.7 0.0 0.7 0.7 0.7 0.7 1 1 1
+sphere 0.0 5 0 3 0.1 0.1 0.1 0.9 0.9 0.9 0.8 0.8 0.8 1 1 1

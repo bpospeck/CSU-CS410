@@ -1,0 +1,15 @@
+Just a few notes to remind myself of certain things in C++ that are useful pieces of information
+
+* cout streams: endl flushing has extra overhead, so use '\n' when flushing isn't necessary.
+* Not good practice to use an entire namespace (eg using namespace std). Just use individual usings inside of functions if used multiple times (eg using std::cout). If only using it once within a function, don't bother with the using, just use it.
+* Pass by reference is more efficient than pass by value (duh). Forcing the reference to be a constant will ensure the values referenced can't be changed by the function they're being passed to. [eg. string concatenate(const string& a, const string& b){return a+b;}]
+* inline functions can be used for very short functions. It makes it more efficient, although the compiler likely already optimizes this kind of thing anyways.
+* Don't forget to declare a function prototype above if that function would be called by a different function before its definition. Alternatively, just define that function above the other and don't use a function prototype at all.
+* If arrays left uninitialized, garbage values exist. Can use "int nums[10] = {}" to initialize all values to '0'
+* If need to dynamic 2d array, better to implement it in 1d form. Doesn't really matter if it's static
+* '&' is address-of-operator; can be read as "address of"
+* '*' is dereference operator; can be read as "value pointed to by"; Used to dereference the '&'
+* '*' can also be used to declare a pointer to a certain type (eg. int * num; points to an integer).
+* Class members are automatically private when no other access specifier has been given
+* Default constructors can't be called with parenthesis, or else it looks like a function declaration (eg. Rectangle rect; is correct, Rectangle rect() is wrong)
+* Compilers provide implicit constructors by default, but as soon as any explicite constructor is declared, the compiler will no longer provide an implicit one.
